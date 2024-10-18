@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page title</title>
+    <link rel="stylesheet" href="./bootstrap-main/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Final Website.css">
+</head>
+<body>
+
+    <!--Navbar Section-->
+    <header>
+    <nav class="navbar navbar-expand-lg bg-body-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand rounded-pill" href="#"><img src="./ASSETS/Floor Sprite.png" alt="logo" style="width: 50px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link fs-5" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="#">
+                About Us
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="#">Login</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-primary rounded-pill" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+    <div class="carousel slide" id="carouselExampleInterval" data-bs-ride="carousel" style="align-items: center;">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000"><img src="./CAROUSELS/First car.jpg" alt="car" class="d-block w-100">
+            <div class="carousel-caption d-inline-block"></div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000"><img src="./CAROUSELS/Second car.jpg" alt="car" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-inline-block"></div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000"><img src="./CAROUSELS/Third car.jpg" alt="car" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-inline-block"></div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>  
+        </button>
+    </div>
+    </section>
+
+    <!--Body Section-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At nesciunt doloribus ratione? Facilis excepturi deleniti recusandae, nihil aspernatur a earum voluptatem dignissimos necessitatibus doloribus consequuntur cumque laudantium natus architecto dicta.Lorem ipsum dolor sit amet consectetur adipisicing elit. At nesciunt doloribus ratione? Facilis excepturi deleniti recusandae, nihil aspernatur a earum voluptatem dignissimos necessitatibus doloribus consequuntur cumque laudantium natus architecto dicta.
+    </p>
+
+    <!--Card Section-->
+    <section>
+    <div class="card-1">
+        <div class="card">
+            <div class="card-header"><div style="display: flex;"><div class="fs-3 fst-bolder" style="color: #00f;">BASIC</div>
+                <div class="form-text" style="margin-left: 7px; margin-top: 12px;">1 user</div></div><br>
+                <div class="fs-4">Free</div>
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li><strong>Meetings</strong> up to 40 minutes per meeting</li>
+                    <li><strong>100 Participants</strong> per meeting</li>
+                    <li><strong>Whiteboard Basic</strong> 3 editable boards</li>
+                    <li><strong>Team Chat</strong></li>
+                    <li><strong>Mail and Calendar</strong> Client</li>
+                    <li><strong>Clips Basic</strong> 5-two minute videos</li>
+                    <li><strong>Notes</strong></li>
+                    <li><strong>Docs Basic</strong> Share up to 10 docs <button class="btn btn-sm btn-secondary" disabled>NEW</button>
+                </ul>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-outline-primary">Sign Up</button>
+            </div>
+        </div>
+            <br>
+            <div class="card">
+                <div class="card-header"><div style="display: flex;"><div class="fs-3" style="color: #00f;">PRO</div>
+                    <div class="form-text" style="margin-left: 7px; margin-top: 12px;">1-9 users</div></div><br>
+                <div class="fs-4">$12.49</div>
+                </div>
+                <div class="card-body">
+                    <h5 style="margin-left: 8px;">Everything in Basic, and:</h5>
+                    <ul>
+                        <li><strong>Meetings</strong> up to 30 hours per meeting</li>
+                        <li><strong>Mail and Calendar</strong> Client & Service</li>
+                        <li><strong>Clips Plus</strong> Unlimited videos</li>
+                        <li><strong>AI Companion</strong></li>
+                        <li><strong>Docs</strong> Unlimited <button class="btn btn-sm btn-secondary" disabled>NEW</button>
+                        <li><strong>Cloud Storage</strong> 5GB</li>
+                        <li><strong>Essential Apps</strong><br>
+                        Free premium apps for 1 year (terms apply)</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary rounded-pill">Buy Now</button>
+                </div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-header"><div style="display: flex;"><div class="fs-3" style="color: #00f;">BUSINESS</div>
+                    <div class="form-text" style="margin-left: 7px; margin-top: 12px;">10-250 users</div>
+                    </div><br>
+                    <div class="fs-4">$18.32</div>
+                </div>
+                <div class="card-body">
+                    <h5 style="margin-left: 8px;">Everything in Pro, and:</h5>
+                <ul>
+                        <li><strong>300 Participants</strong> per meeting</li>
+                        <li><strong>Whiteboard </strong>Unlimited boards</li>
+                        <li><strong>Scheduler</strong></li>
+                        <li><strong>Extras</strong> SSO, managed domains & more</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary rounded-pill">Buy Now</button>
+                </div>
+            </div>
+        <br>
+        <div class="card">
+            <div class="card-header"><div style="display: flex;"><div class="fs-3" style="color: #00f;">BUSINESS PLUS</div>
+                <div class="form-text business" style="margin-left: 7px; margin-top: 12px;">10-250 users</div>
+                </div><br>
+                <div class="fs-4">Not for Sale</div>
+            </div>
+            <div class="card-body">
+                <h5 style="margin-left: 8px;">Everything in Business, and:</h5>
+            <ul>
+                    <li><strong>Cloud Storage</strong> 10GB</li>
+                    <li><strong>Phone </strong>Global Select</li>
+                    <li><strong>Translated Captions</strong></li>
+                    <li><button class="btn btn-sm btn-secondary" disabled> NEW</button> <strong>Visitor Management</strong></li>
+                </ul>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-md btn-outline-primary rounded-pill">Contact  Sales</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+    <!--Subscribe Section-->
+        <div class="subscribe">
+            <div class="fs-5" style="color: rgb(232, 1, 1);"><strong>HubSpot Blog</strong></div>
+            <div class="fs-2"><strong>Subscribe to our Blogs</strong></div><br>
+            Pick the blog emails you want to receive
+            <form action="../HTML CONTINUATION/Andre.htm">
+                <div class="options">
+                    <div style="display: flex;" class="marketing"><div><input type="checkbox"></div> <div style="margin-left: 7px;">Marketing</div></div>
+                    <div style="display: flex;"><div><input type="checkbox" style="margin-left: 30px;"></div> <div style="margin-left: 7px;">Sales</div></div>
+                    <div style="display: flex;"><div><input type="checkbox" style="margin-left: 30px;"></div> <div style="margin-left: 7px;">Service</div></div>
+                    <div style="display: flex;"><div><input type="checkbox" style="margin-left: 30px;"></div> <div style="margin-left: 7px;">Website</div></div>
+                    <div style="display: flex;"><div><input type="checkbox" style="margin-left: 30px;"></div> <div style="margin-left: 7px;">AI</div></div>
+                </div>
+            </form>
+            <br>
+            <label for="email">Email Address</label>
+            <div class="email">
+               <div><input type="email" placeholder="Your email address" style="width: 50vw; padding: 10px;" class="rounded-pill"></div>
+               <div class="subscribe-btn"><a href="" class="btn btn-md btn-danger" style="padding: 5px 25px;">Subscribe</a></div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer Section-->
+    <div class="footer">
+        <div class="copyright">
+        <footer class="footer1">
+                <div class="contact fw-bolder
+                fs-4">Contact Us @</div>
+                <div class="contact"><a href="https://wa.me/2349011641058"><img src="./ASSETS/20240822_115730.png" alt="" style="width: 30px;"></a></div>
+                <div class="contact"><a href="#"><img src="./ASSETS/20240822_115659.png" alt="" style="width: 30px;"></a></div>
+                <div class="contact"><a href="https://t.me/Joelandre7"><img src="./ASSETS/Telegram_2019_Logo.svg.webp" alt="" style="width: 30px;"></a></div>
+                <div class="contact"><a href="#"><img src="./ASSETS/Instagram_logo_2016.svg.png" alt="" style="width: 30px;"></a></div>
+                <div class="contact"><a href="mailto:joelomojolowo@gmail.com"><img src="./ASSETS/Gmail_Logo_512px.png" alt="" style="width: 30px; height: 30px;"></a></div>
+                <div class="contact"><a href="tel:9011641058"><img src="./ASSETS/1.jpeg" alt="" style="width: 30px; height: 30px;"></a></div>
+        </footer>
+        <div class="text-center fs-5 fw-bold right">Copyright @ 2024 Literature Archives. All Rights Reserved.</div>
+        </div>
+    </div>
+
+    <script src="./bootstrap-main/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
